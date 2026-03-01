@@ -6,7 +6,10 @@ This is an interactive dashboard built using **Streamlit** to compare performanc
 The dashboard enables dynamic filtering and visually highlights the top-performing store along with the quantified performance gap to support data-driven business decisions.
 
 ---
+## 📸 Dashboard Preview
 
+![Retail Dashboard](dashboard.png)
+---
 ## 🚀 Features
 - Compare two stores side-by-side
 - KPI selection (Sales, Profit, Transactions)
