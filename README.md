@@ -170,6 +170,5 @@ Areas of Interest:
 •	AI-powered dashboards
 •	Decision intelligence systems
 
-GitHub
-https://github.com/Rachelsjp
-
+📌 Note
+This project was built as part of hands-on learning python and Streamlit.
