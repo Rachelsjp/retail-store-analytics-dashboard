@@ -1,46 +1,42 @@
-# 🏬 Retail Store Performance Comparator
+# 🏬 Retail Performance Analytics Dashboard
 
-An interactive Streamlit analytics dashboard that compares the performance of retail stores across key business KPIs such as **Sales**, **Profit**, and **Transactions**.
+An interactive Streamlit analytics dashboard that compares the performance of retail stores across key business KPIs such as Sales, Profit, and Transactions.
 
-The dashboard enables business users to quickly identify top-performing stores, analyze monthly trends, and uncover performance gaps through interactive filters and visual comparisons.
+The dashboard enables business users to quickly identify top-performing stores, monthly trends, and performance gaps using simple filters and visual comparisons.
 
 ---
 
 # 🚀 Project Overview
 
-Retail organizations often operate multiple stores and need visibility into performance across locations.
+Retail organizations often operate multiple stores and need to monitor performance across locations.
 
-This project demonstrates how **Python**, **Streamlit**, and **data visualization** can be combined to create an interactive decision-support dashboard that helps users:
+This project demonstrates how Python, Streamlit, and data visualization can be used to build an interactive decision-support dashboard that allows users to:
 
 * Compare two stores across selected KPIs
 * Analyze monthly performance trends
 * Generate quick executive insights
 * Identify leading stores and performance gaps
 
-The dashboard is designed for retail managers, analysts, and business stakeholders who need a simple way to evaluate store performance.
+The dashboard is designed for retail managers and analysts to quickly evaluate store performance.
 
 ---
 
 # 📊 Dashboard Preview
 
-> Add dashboard screenshot here
+**dashboard.png**
 
-```text
-dashboard.png
-```
-
-The dashboard includes:
+This interactive dashboard includes:
 
 * KPI summary comparison
-* Monthly performance visualization
-* Automatic winner insight generation
+* Monthly performance chart
+* Automatic winner insight
 * Dynamic filtering options
 
 ---
 
 # 🧠 Key Features
 
-## 🎛️ Interactive Filters
+## Interactive Filters
 
 Users can dynamically filter the dashboard using:
 
@@ -57,51 +53,47 @@ Users can dynamically filter the dashboard using:
 
 ---
 
-## 📈 KPI Summary
+## KPI Summary
 
 The dashboard automatically calculates and displays:
 
 * Total KPI value for Store 1
 * Total KPI value for Store 2
 
-This provides an instant comparison of store performance.
+This allows quick comparison of store performance.
 
 ---
 
-## 💡 Executive Insight Generation
+## Executive Insight Generation
 
-The application automatically generates business insights such as:
+The application automatically generates insights such as:
 
 * 🏆 Winning store
 * 📈 KPI lead difference
-* 🤝 Equality detection when stores perform similarly
+* Equality detection if both stores perform similarly
 
-This simulates basic business insight generation and highlights key performance outcomes.
+This simulates basic AI-style business insight generation.
 
 ---
 
-## 📊 Monthly Performance Visualization
+## Monthly Performance Visualization
 
-A comparative bar chart displays:
+The dashboard provides a bar chart comparison showing:
 
-* Monthly KPI values for Store 1
-* Monthly KPI values for Store 2
+* Store 1 monthly KPI values
+* Store 2 monthly KPI values
 
-This helps identify:
-
-* Performance trends
-* Seasonal variations
-* Store-level strengths and weaknesses
+This helps identify monthly trends and performance patterns.
 
 ---
 
 # ⚙️ Technology Stack
 
-| Technology | Purpose                         |
+| Tool       | Purpose                         |
 | ---------- | ------------------------------- |
 | Python     | Core programming                |
 | Streamlit  | Interactive dashboard framework |
-| Pandas     | Data processing and analysis    |
+| Pandas     | Data processing                 |
 | NumPy      | Numerical operations            |
 | Matplotlib | Data visualization              |
 
@@ -110,7 +102,7 @@ This helps identify:
 # 📂 Project Structure
 
 ```text
-retail-store-performance-comparator/
+retail-performance-analytics-dashboard
 │
 ├── store_performance_comparison.py
 ├── retail_data.csv
@@ -127,11 +119,11 @@ retail-store-performance-comparator/
 
 Main Streamlit application that:
 
-* Loads retail data
+* Loads retail dataset
 * Provides interactive filters
-* Calculates KPIs
+* Performs KPI calculations
 * Generates insights
-* Visualizes monthly comparisons
+* Visualizes monthly store comparison
 
 ---
 
@@ -139,7 +131,7 @@ Main Streamlit application that:
 
 Sample retail dataset containing:
 
-* Store Name
+* Store name
 * Year
 * Month
 * Sales
@@ -150,7 +142,7 @@ Sample retail dataset containing:
 
 ## dashboard.png
 
-Screenshot preview of the dashboard.
+Screenshot preview of the interactive dashboard.
 
 ---
 
@@ -158,7 +150,7 @@ Screenshot preview of the dashboard.
 
 Python dependencies required to run the project.
 
-```bash
+```text
 streamlit
 pandas
 matplotlib
@@ -193,7 +185,7 @@ pip install -r requirements.txt
 streamlit run store_performance_comparison.py
 ```
 
-Open in your browser:
+The dashboard will open in your browser:
 
 ```text
 http://localhost:8501
@@ -201,9 +193,9 @@ http://localhost:8501
 
 ---
 
-# 💼 Business Use Cases
+# 💡 Business Use Cases
 
-This dashboard approach can be applied to:
+This dashboard approach can be used for:
 
 * Retail chain performance monitoring
 * Multi-store KPI comparison
@@ -211,38 +203,36 @@ This dashboard approach can be applied to:
 * Store benchmarking
 * Operational decision support
 
-### Applicable Industries
+### Industries where similar dashboards are used
 
 * Retail chains
-* E-commerce businesses
-* Franchise networks
+* E-commerce companies
+* Franchise businesses
 * Sales operations teams
 
 ---
 
 # 🎯 Learning Outcomes
 
-Through this project, I explored:
+Through this project I explored:
 
 * Building interactive dashboards with Streamlit
 * Data analysis using Pandas
+* Data visualization using Matplotlib
 * KPI comparison logic
-* Business-focused visual storytelling
-* Automated insight generation
-* Interactive analytics application development
+* Automated business insight generation
 
 ---
 
-# 🔮 Future Enhancements
+# 🔮 Future Improvements
 
-Potential improvements include:
+Possible future enhancements:
 
-* Compare multiple stores simultaneously
-* Connect to SQL databases instead of CSV files
+* Add multiple store comparison
+* Integrate SQL database instead of CSV
 * Add predictive sales forecasting
-* Include inventory and margin KPIs
-* Deploy to Streamlit Cloud
-* Add automated anomaly detection
+* Include additional KPIs (inventory, margins)
+* Deploy dashboard to Streamlit Cloud
 
 ---
 
@@ -250,20 +240,20 @@ Potential improvements include:
 
 **Rachel Purnima Johnpeter**
 
-Data Analytics Lead transitioning into AI, Data Engineering, and Generative AI.
+Data Analytics Lead transitioning into AI / Data / Generative AI Engineering
 
 ### Areas of Interest
 
 * Data Analytics
 * Machine Learning
 * Generative AI
-* AI-Powered Dashboards
-* Decision Intelligence Systems
+* AI-powered dashboards
+* Decision intelligence systems
 
 ---
 
 # 📌 Note
 
-This project was built as part of my hands-on learning journey in **Python**, **Data Analytics**, and **Streamlit application development**.
+This project was built as part of hands-on learning Python and Streamlit.
 
 It focuses on interactive KPI analysis, business insights, and dashboard-driven decision support for retail operations.
